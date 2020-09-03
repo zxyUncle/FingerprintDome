@@ -22,8 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun verify() {
-        FingerprintUtils.instance()
-            .init(this, object : BiometricPromptManager.OnBiometricIdentifyCallback {
+        FingerprintUtils.instance().init(this, object : BiometricPromptManager.OnBiometricIdentifyCallback {
                 override fun onUsePassword() {
                 }
 
