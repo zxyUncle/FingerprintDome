@@ -1,0 +1,11 @@
+<resources>
+    <string name="biometric_dialog_cancel">取消</string>
+    <string name="biometric_dialog_title">验证</string>
+    <string name="biometric_dialog_subtitle">验证指纹继续</string>
+    <string name="biometric_dialog_state_normal">指纹传感器</string>
+    <string name="biometric_dialog_state_failed">无法识别，请重试</string>
+    <string name="biometric_dialog_state_error">验证错误，请输入支付密码</string>
+    <string name="biometric_dialog_state_error_enable_process">验证错误，安装程序失败</string>
+    <string name="biometric_dialog_state_succeeded">验证成功</string>
+    <string name="biometric_dialog_use_password">使用密码</string>
+</resources>

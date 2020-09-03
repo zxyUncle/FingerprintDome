@@ -1,0 +1,3 @@
+include ':zxyfingerprint'
+include ':app'
+rootProject.name = "FingerprintDome"
